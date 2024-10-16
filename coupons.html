@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="coupons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <img src="images/photo_2023-05-15_18-32-23-removebg-preview.png" alt="">
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="offers.html">Offers</a>
+            <a href="coupons.html">Coupons</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="active" href="sign up.html" target="_blank">Sign Up</a>
+            <a class="not-active" href="log in.html" target="_blank">Log In</a>
+        </div>
+      </div>
+        <!--End header-->
+      <!--start fillter-->
+      <nav class=" navbar-expand-sm " style="padding: 5px;"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarColor">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" style="padding-right: 30px;
+            padding-left: 30px;background-image: linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%)!important;" href="#">All</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#">Food</a> </li>
+        <li class="nav-item "><a class="nav-link" href="#">Clothes</a> </li>
+        <li class="nav-item "><a class="nav-link" href="#">SkinCare</a> </li>
+        <li class="nav-item "><a class="nav-link" href="#">Transportion</a> </li>
+        <li class="nav-item "><a class="nav-link" href="#">Others</a> </li>
+        </ul>
+        </div>
+        </nav>
+    <div class="container-blue-bg">
+     <!--list fillter-->
+     <div class="fillter">
+        <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#mobile-filter" aria-expanded="false" aria-controls="mobile-filter">Filters<span class="fa fa-filter pl-1"></span></button>
+        </div>
+
+        <section id="sidebar">
+        <div class="fillter-box" style="border-bottom: 1px solid #80808033;
+        width: 172px;
+        margin-left: -13px;">
+        <h6 class="p-1-border-bottom">category</h6>
+        <ul>
+            <li><input type="checkbox" href="#">Food</li> 
+            <li><input type="checkbox" href="#">Clothes</li>
+            <li><input type="checkbox" href="#">Skin care</li>
+            <li><input type="checkbox" href="#">Make up</li>
+            <li><input type="checkbox" href="#">Transportion</li>
+            <li><input type="checkbox" href="#">Other</li>
+           
+            </ul>
+        </div>
+        <div class="fillter-box2">
+        <h6 class="p-1-border-bottom">Filter By</h6>
+        <p class="mb-2">popularity</p>
+        <ul class="list-group">
+            <div class="form-inline border rounded p-sm-2 my-2" style="    margin-bottom: 10px;
+        "> <input type="radio" name="type" id="offline"> <label for="popular" class="pl-1 pt-sm-0 pt-1">Popular</label> </div>
+            <div class="form-inline border rounded p-sm-2 my-2" style="    margin-bottom: 10px;
+        "> <input type="radio" name="type" id="online"> <label for="unpopular" class="pl-1 pt-sm-0 pt-1">Unpopular </label> </div>
+        </ul>
+        </div>
+        <div style="margin-bottom:10px;">
+        <p class="mb-2">Type</p>
+        <form class="ml-md-2" style="display: inline; ">
+        <div class=" my-2"style="    margin-bottom: 10px;
+    "> <input type="radio" name="type" id="offline"> <label for="in store" class="pl-1 pt-sm-0 pt-1">In Store</label> </div>
+        <div class="my-2"style    margin-bottom: 10px;
+    > <input type="radio" name="type" id="online"> <label for="ugly" class="pl-1 pt-sm-0 pt-1">Online</label> </div>
+        </form>
+        </div>
+        <div>
+        <p class="mb-2">Gender</p>
+        <form class="ml-md-2" style="display: inline;">
+        <div class="form-inline border rounded p-sm-2 my-2"style    margin-bottom: 10px;
+    > <input type="radio" name="type" id="offline"> <label for="in store" class="pl-1 pt-sm-0 pt-1">Male</label> </div>
+        <div class="form-inline border rounded p-sm-2 my-2"style    margin-bottom: 10px;
+    > <input type="radio" name="type" id="online"> <label for="ugly" class="pl-1 pt-sm-0 pt-1">Female</label> </div>
+        </form>
+        </div>
+        </section>
+    </div>
+
+    <!--end fillter-->
+        <section class="conatiner">
+            <div class="coupon">
+                    <div class="top-coupon">
+
+                        <div class="img">
+                            <img src="images/coupon.png" alt="">
+                        </div>
+
+                        <div>
+                            <div class="coupon-discount">
+                                    <p>20% discount</p>
+                            </div>
+                                <div class="part2">
+                                    <div class="coupon-icon">
+                                            <p>Coupons</p>
+                                    </div>
+                                    <div class="coupon-icon">
+                                        <p>active</p>
+                                </div>
+                                </div>
+                        
+                        </div>
+                    </div>
+                    <div class="coupon-text">
+                        <input type="text" value=" " id="myInput">
+                        <button onclick="myFuntion()">Copy Text</button>
+                    </div>
+
+                    <div class="desciption">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Hic, veniam ipsum labore dignissimos consectetur
+                        consequuntur.</p>
+                    </div>
+                    <div class="percentage">
+                        <p>Active</p>
+                    </div>
+
+                    <div class="trg"></div>
+                    
+            </div>  
+
+
+            <div class="coupon">
+                <div class="top-coupon">
+
+                    <div class="img">
+                        <img src="images/coupon.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="coupon-discount">
+                                <p>20% discount</p>
+                        </div>
+                            <div class="part2">
+                                <div class="coupon-icon">
+                                    <p>Coupons</p>
+                                </div>
+                                <div class="coupon-icon">
+                                    <p>Active</p>
+                            </div>
+                            </div>
+                    
+                    </div>
+                </div>
+                <div class="coupon-text">
+                    <input type="text" value=" " id="myInput">
+                    <button onclick="myFuntion()">Copy Text</button>
+                </div>
+
+                <div class="desciption">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Hic, veniam ipsum labore dignissimos consectetur
+                    consequuntur.</p>
+                </div>
+                <div class="percentage">
+                    <p>Active</p>
+                </div>
+
+                <div class="trg"></div>
+                
+        </div>  
+
+
+        <div class="coupon">
+            <div class="top-coupon">
+
+                <div class="img">
+                    <img src="images/coupon.png" alt="">
+                </div>
+
+                <div>
+                    <div class="coupon-discount">
+                            <p>20% discount</p>
+                    </div>
+                        <div class="part2">
+                            <div class="coupon-icon">
+                                <p>Coupons</p>
+                            </div>
+                            <div class="coupon-icon">
+                                <p>Active</p>
+                        </div>
+                        </div>
+                
+                </div>
+            </div>
+            <div class="coupon-text">
+                <input type="text" value=" " id="myInput">
+                <button onclick="myFuntion()">Copy Text</button>
+            </div>
+
+            <div class="desciption">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Hic, veniam ipsum labore dignissimos consectetur
+                consequuntur.</p>
+            </div>
+            <div class="percentage">
+                <p>Active</p>
+            </div>
+
+            <div class="trg"></div>
+            
+    </div>  
+
+
+    <div class="coupon">
+        <div class="top-coupon">
+
+            <div class="img">
+                <img src="images/coupon.png" alt="">
+            </div>
+
+            <div>
+                <div class="coupon-discount">
+                        <p>20% discount</p>
+                </div>
+                    <div class="part2">
+                        <div class="coupon-icon">
+                            <p>Coupons</p>
+                        </div>
+                        <div class="coupon-icon">
+                            <p>Active</p>
+                    </div>
+                    </div>
+            
+            </div>
+        </div>
+        <div class="coupon-text">
+            <input type="text" value=" " id="myInput">
+            <button onclick="myFuntion()">Copy Text</button>
+        </div>
+
+        <div class="desciption">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Hic, veniam ipsum labore dignissimos consectetur
+            consequuntur.</p>
+        </div>
+        <div class="percentage">
+            <p>Active</p>
+        </div>
+
+        <div class="trg"></div>
+        
+</div>  
+
+
+<div class="coupon">
+    <div class="top-coupon">
+
+        <div class="img">
+            <img src="images/coupon.png" alt="">
+        </div>
+
+        <div>
+            <div class="coupon-discount">
+                    <p>20% discount</p>
+            </div>
+                <div class="part2">
+                    <div class="coupon-icon">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="coupon-icon">
+                        <p>Active</p>
+                </div>
+                </div>
+        
+        </div>
+    </div>
+    <div class="coupon-text">
+        <input type="text" value=" " id="myInput">
+        <button onclick="myFuntion()">Copy Text</button>
+    </div>
+
+    <div class="desciption">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Hic, veniam ipsum labore dignissimos consectetur
+        consequuntur.</p>
+    </div>
+    <div class="percentage">
+        <p>Active</p>
+    </div>
+
+    <div class="trg"></div>
+    
+</div>  
+
+
+<div class="coupon">
+    <div class="top-coupon">
+
+        <div class="img">
+            <img src="images/coupon.png" alt="">
+        </div>
+
+        <div>
+            <div class="coupon-discount">
+                    <p>20% discount</p>
+            </div>
+                <div class="part2">
+                    <div class="coupon-icon">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="coupon-icon">
+                        <p>Active</p>
+                </div>
+                </div>
+        
+        </div>
+    </div>
+    <div class="coupon-text">
+        <input type="text" value=" " id="myInput">
+        <button onclick="myFuntion()">Copy Text</button>
+    </div>
+
+    <div class="desciption">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Hic, veniam ipsum labore dignissimos consectetur
+        consequuntur.</p>
+    </div>
+    <div class="percentage">
+        <p>Active</p>
+    </div>
+
+    <div class="trg"></div>
+    
+</div>  
+
+
+<div class="coupon">
+    <div class="top-coupon">
+
+        <div class="img">
+            <img src="images/coupon.png" alt="">
+        </div>
+
+        <div>
+            <div class="coupon-discount">
+                    <p>20% discount</p>
+            </div>
+                <div class="part2">
+                    <div class="coupon-icon">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="coupon-icon">
+                        <p>Active</p>
+                </div>
+                </div>
+        
+        </div>
+    </div>
+    <div class="coupon-text">
+        <input type="text" value=" " id="myInput">
+        <button onclick="myFuntion()">Copy Text</button>
+    </div>
+
+    <div class="desciption">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Hic, veniam ipsum labore dignissimos consectetur
+        consequuntur.</p>
+    </div>
+    <div class="percentage">
+        <p>Active</p>
+    </div>
+
+    <div class="trg"></div>
+    
+</div>  
+
+
+<div class="coupon">
+    <div class="top-coupon">
+
+        <div class="img">
+            <img src="images/coupon.png" alt="">
+        </div>
+
+        <div>
+            <div class="coupon-discount">
+                    <p>20% discount</p>
+            </div>
+                <div class="part2">
+                    <div class="coupon-icon">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="coupon-icon">
+                        <p>Active</p>
+                </div>
+                </div>
+        
+        </div>
+    </div>
+    <div class="coupon-text">
+        <input type="text" value=" " id="myInput">
+        <button onclick="myFuntion()">Copy Text</button>
+    </div>
+
+    <div class="desciption">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Hic, veniam ipsum labore dignissimos consectetur
+        consequuntur.</p>
+    </div>
+    <div class="percentage">
+        <p>Active</p>
+    </div>
+
+    <div class="trg"></div>
+    
+</div>  
+
+
+<div class="coupon">
+    <div class="top-coupon">
+
+        <div class="img">
+            <img src="images/coupon.png" alt="">
+        </div>
+
+        <div>
+            <div class="coupon-discount">
+                    <p>20% discount</p>
+            </div>
+                <div class="part2">
+                    <div class="coupon-icon">
+                        <p>Coupons</p>
+                    </div>
+                    <div class="coupon-icon">
+                        <p>Active</p>
+                </div>
+                </div>
+        
+        </div>
+    </div>
+    <div class="coupon-text">
+        <input type="text" value=" " id="myInput">
+        <button onclick="myFuntion()">Copy Text</button>
+    </div>
+
+    <div class="desciption">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Hic, veniam ipsum labore dignissimos consectetur
+        consequuntur.</p>
+    </div>
+    <div class="percentage">
+        <p>Active</p>
+    </div>
+
+    <div class="trg"></div>
+    
+</div>  
+
+        </section>
+
+
+         <section class="see-more">
+           
+                <button name="see-more">SEE MORE <i class="fa-solid fa-angles-right"></i></button>
+           
+         </section>
+
+  <!--start footer-->
+  <footer>
+    <!-- Footer main -->
+    <section class="ft-main">
+      <div class="ft-main-item">
+        <h2 class="ft-title">About</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Resources</h2>
+        <ul>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">eBooks</a></li>
+          <li><a href="#">Webinars</a></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Contact</h2>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Stay Updated</h2>
+        <p class="ft">Subscribe to our newsletter to get our latest news.</p>
+        <form>
+          <input type="email" name="email" placeholder="Enter email address">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </section>
+  
+    <!-- Footer social -->
+    <section class="ft-social">
+      <ul class="ft-social-list">
+        <li><a href="#"><i class="fab fa-facebook" style="color: gray;"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter" style="color: gray;"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram" style="color: gray;"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin" style="color: gray;"></i></a></li>
+      </ul>
+    </section>
+  
+    <!-- Footer legal -->
+    <section class="ft-legal">
+      <ul class="ft-legal-list">
+        <li><a href="#" style="color:white;">Terms &amp; Conditions</a></li>
+        <li><a href="#" style="color: white;">Privacy Policy</a></li>
+        <li>&copy; 2023 Copyright for DealU.</li>
+      </ul>
+    </section>
+  </footer>
+  <!--end footer-->
+    <script>
+        function myFuntion(){
+            var copyText= document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0,99999);
+            navigator.clipboard.writeText(copyText.value);
+            alert(" Copied the text : " + copyText.value);
+            console.log('yes');
+        }
+    </script>
+    
+</body>
+</html>

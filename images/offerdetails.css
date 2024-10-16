@@ -1,0 +1,198 @@
+.offerdetails {
+  padding: 50px 0;
+}
+.heading-section {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.heading-section h2 {
+	font-size: 32px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.reviews-counter {
+  font-size: 13px;
+}
+.reviews-counter span {
+  vertical-align: -2px;
+}
+.rate {
+  float: left;
+  padding: 0 10px 0 0;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 21px;
+  color:#ccc;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+  content: '\2605';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.expiration {
+  margin-bottom: 10px;
+}
+
+.columns {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-left: 75px;
+}
+
+
+.container {
+  position: relative;
+  width: 130%;
+  height: 100%;
+  float: left;
+  margin-left: -100px;
+}
+
+.expiration {
+  font-size: 16px;
+  color: #777474;
+}
+
+.share-container {
+  padding-left: 0;
+}
+
+
+.columns {
+  margin-top: 30px;
+}
+
+.button {
+  width: 100%;
+  border-radius: 0;
+}
+
+#share-container {
+  padding-left: 0;
+}
+
+#buy-container {
+  padding-right: 0;
+} 
+
+.share-button {
+  background: #9FACE6;
+  color: white;
+  border: none;
+}
+
+.buy-button {
+  background: #74EBD5;
+  color: white;
+  border: none;
+}
+
+.buy-button:hover, .buy-button:active, .buy-button:focus {
+  color: ghostwhite;
+  opacity: 0.9;
+}
+
+.share-button:hover, .share-button:active, .share-button:focus {
+  color: ghostwhite;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 769px) {
+  #share-container, #buy-container {
+    padding: 0 0 15px 0;
+  }
+}
+.review-form .form-group {
+	clear: both;
+	font-size: 15px;
+	line-height: 24px;
+	color: #7a7a7a;
+}
+
+.review-form .rate {
+	float: none;
+	display: inline-block;
+}
+.review-heading {
+	font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  color: black;
+}
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+.review-form .form-control {
+	font-size: 14px;
+  padding: 25px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+}
+.review-form input.form-control {
+	height: 40px;
+}
+.review-form textarea.form-control {
+	resize: none;
+}
+.round-black-btn {
+	border-radius: 4px;
+  background: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  color: #fff;
+  padding: 7px 45px;
+  display: inline-block;
+  margin-top: 20px;
+  border:none; 
+  transition: all 0.5s ease-in-out 0s;
+  text-transform: uppercase;
+	cursor: pointer;
+}
+.round-black-btn:hover,
+.round-black-btn:focus,
+.round-black-btn:active {
+	color: ghostwhite;
+  opacity: 0.6;
+}
